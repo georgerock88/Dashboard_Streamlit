@@ -53,6 +53,8 @@
 
 
 import pandas as pd 
+import matplotlib
+
 
 
 # In[3]:
