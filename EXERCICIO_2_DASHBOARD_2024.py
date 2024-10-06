@@ -58,9 +58,9 @@ import pandas as pd
 # In[3]:
 
 
-path_ibyte = r"C:\Users\georg\OneDrive - GEORGE R BENTO\Cursos\MBA - Ciências de Dados\Dashboards Python\Exercício 2\RECLAMEAQUI_IBYTE.csv"
-path_hapvida = r"C:\Users\georg\OneDrive - GEORGE R BENTO\Cursos\MBA - Ciências de Dados\Dashboards Python\Exercício 2\RECLAMEAQUI_HAPVIDA.csv"
-path_nagem = r"C:\Users\georg\OneDrive - GEORGE R BENTO\Cursos\MBA - Ciências de Dados\Dashboards Python\Exercício 2\RECLAMEAQUI_NAGEM.csv"
+path_ibyte = 'RECLAMEAQUI_IBYTE.csv'
+path_hapvida = 'RECLAMEAQUI_HAPVIDA.csv'
+path_nagem = 'RECLAMEAQUI_NAGEM.csv'
 
 
 # In[5]:
@@ -206,9 +206,9 @@ empresas = df_unico['EMPRESA'].unique()
 
 # Dicionário de logos 
 logos = {
-    'Ibyte': r"C:\Users\georg\OneDrive - GEORGE R BENTO\Cursos\MBA - Ciências de Dados\Dashboards Python\Exercício 2\imagens\logo_ibyte.png",
-    'Hapvida': r"C:\Users\georg\OneDrive - GEORGE R BENTO\Cursos\MBA - Ciências de Dados\Dashboards Python\Exercício 2\imagens\logo_hapvida.png",
-    'Nagem': r"C:\Users\georg\OneDrive - GEORGE R BENTO\Cursos\MBA - Ciências de Dados\Dashboards Python\Exercício 2\imagens\logo_nagem.png",
+    'Ibyte': 'logo_ibyte.png',
+    'Hapvida': 'logo_hapvida.png',
+    'Nagem': 'logo_nagem.png'
    
     
 }
